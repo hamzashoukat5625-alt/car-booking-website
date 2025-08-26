@@ -45,7 +45,7 @@ const cars = [
     model_year: "2021",
     variant: "i-VTEC",
     seats: 7,
-    image: "images/cars/brv.jpg"
+    image: "images/cars/BRV.jpg"
   },
    {
     name: "Toyota",
@@ -111,4 +111,5 @@ cars.forEach(car => {
   `;
   carList.innerHTML += card; // Append each card
 });
+
 
