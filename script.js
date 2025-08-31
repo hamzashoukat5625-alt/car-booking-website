@@ -45,7 +45,43 @@ const cars = [
     model_year: "2021",
     variant: "i-VTEC",
     seats: 7,
-    image: "images/cars/BRV.jpg"
+    image: "images/cars/brv.jpg"
+  },
+   {
+    name: "Limousine",
+    model: "Luxury",
+    type: "Luxury • Automatic",
+    model_year: "2012",
+    variant: "Lincoln Limo",
+    seats: 7,
+    image: "images/cars/limousine.jpg"
+  },
+   {
+    name: "Toyota",
+    model: "Prado",
+    type: "SUV • Automatic",
+    model_year: "2020",
+    variant: "TX",
+    seats: 7,
+    image: "images/cars/prado.jpg"
+  }, 
+   {
+    name: "Toyota",
+    model: "Fortuner",
+    type: "SUV • Automatic",
+    model_year: "2024",
+    variant: "2.7 G",
+    seats: 7,
+    image: "images/cars/fortuner.jpg"
+  },
+   {
+    name: "Toyota",
+    model: "Land Cruiser",
+    type: "SUV • Automatic",
+    model_year: "2024",
+    variant: "V8 ZX",
+    seats: 7,
+    image: "images/cars/Land_Cruiser_2.jpg"
   },
    {
     name: "Toyota",
@@ -111,5 +147,4 @@ cars.forEach(car => {
   `;
   carList.innerHTML += card; // Append each card
 });
-
 
