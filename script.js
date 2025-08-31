@@ -9,7 +9,7 @@ const cars = [
     model_year: "2025",
     variant: "ZX",
     seats: 7,
-    image: "images/cars/land_cruiser.jpg"
+    image: "images/cars/Land_Cruiser.jpg"
   },
    {
     name: "Toyota",
@@ -81,7 +81,7 @@ const cars = [
     model_year: "2024",
     variant: "V8 ZX",
     seats: 7,
-    image: "images/cars/Land_Cruiser_2.jpg"
+    image: "images/cars/land_cruiser_2.jpg"
   },
    {
     name: "Toyota",
@@ -147,5 +147,6 @@ cars.forEach(car => {
   `;
   carList.innerHTML += card; // Append each card
 });
+
 
 
