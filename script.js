@@ -9,7 +9,7 @@ const cars = [
     model_year: "2025",
     variant: "ZX",
     seats: 7,
-    image: "images/cars/Land_Cruiser.jpg"
+    image: "images/cars/land_cruiser.jpg"
   },
    {
     name: "Toyota",
@@ -147,4 +147,5 @@ cars.forEach(car => {
   `;
   carList.innerHTML += card; // Append each card
 });
+
 
