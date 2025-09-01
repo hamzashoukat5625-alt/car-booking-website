@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoonTours Premium Car Booking</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="carStyling.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="formStyle.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Logo"> MoonTour</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="cars.html">Cars List</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- FORM -->
+
+
+<div class="form-container" id="formContainer">
+    <h2>Car Booking Form</h2>
+    <form id="bookingForm" action="https://api.web3forms.com/submit" method="POST">
+
+
+       <input type="hidden" name="access_key" value="10b227f8-1814-4582-a8e9-35c5683428b0">
+
+      <div class="form-group">
+        <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Phone Number (11 digits)" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="city" name="city" placeholder="Pickup City" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="pickPoint" name="pickPoint" placeholder="Pickup Location" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="dropPoint" name="dropPoint" placeholder="Drop Location & City" required>
+      </div>
+      <div class="form-group">
+        <label for="pickTime" class="center-label">Select Pickup Time</label>
+        <input type="datetime-local" id="pickTime" name="pickTime" required>
+      </div>
+      <div class="form-group">
+        <select id="carSelect" name="carSelect" required>
+          <option hidden value=""> Chose Car</option>
+          <option value="Land Cruider">Land Cruiser</option>
+          <option value="Corolla Altis">Corolla Altis</option>
+          <option value="Lexus LX">Lexus LX</option>
+          <option value="Honda BR-V">BR-V</option>
+          <option value="Toyota Yaris">Yaris</option>
+          <option value="Limusine"> Limusine</option>
+          <option value="Prado">Prado</option>
+          <option value="Fortuner">Fortuner</option>
+          <option value="van">Van</option>
+          <option value="Coaster">Coaster</option>
+        </select>
+      </div>
+      <button class="formBtn" type="submit">Book Now</button>
+    </form>
+  </div>
+
+
+<footer>
+  <p class="text-center py-3">&copy; 2025 MoonTours. Premium Travel Experience.</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
