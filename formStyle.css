@@ -87,6 +87,7 @@ body{
     /* Responsive */
     @media (max-width: 500px) {
       .form-container {
+          width:100%;
         padding: 25px 20px;
         border-radius: 15px;
       }
@@ -97,4 +98,5 @@ body{
         font-size: 15px;
         padding: 12px;
       }
+
     }
