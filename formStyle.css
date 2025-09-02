@@ -15,8 +15,8 @@ body{
       background: linear-gradient(#17C9ED, rgba(0,0,0,0.6));
       padding: 30px 25px;
       padding: 0 15px; 
-      margin: 6rem ;
       margin: 0 auto;
+      margin-top: 6rem;
       font-family: 'outfit';
       border-radius: 20px;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
@@ -113,4 +113,5 @@ body{
       }
 
     }
+
 
