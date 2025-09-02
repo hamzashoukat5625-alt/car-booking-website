@@ -24,9 +24,7 @@ header {
       margin: auto;
     }
 
-    .about {
-      margin-bottom: 2rem;
-    }
+    
 
     .about h2 {
       text-align: center;
@@ -89,4 +87,5 @@ header {
     .card p {
       font-size: 0.95rem;
       color: #666;
+
     }
