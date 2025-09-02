@@ -1,16 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent side scroll issues */
+}
+
+
+
+
 body{
     place-items: center;
   }
     .form-container {
       background: linear-gradient(#17C9ED, rgba(0,0,0,0.6));
       padding: 30px 25px;
+      padding: 0 15px; 
       margin: 6rem ;
+      margin: 0 auto;
       font-family: 'outfit';
       border-radius: 20px;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
       width: 100%;
-      max-width: 420px;
+      max-width: 600px;
       transition: box-shadow 0.3s ease;
+      box-sizing: border-box;
     }
 
     .form-container:hover {
@@ -100,3 +113,4 @@ body{
       }
 
     }
+
